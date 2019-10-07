@@ -1,4 +1,3 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -64,18 +63,17 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /* Great Ideas Index Page CSS */
+
 body{
-	height: 300%;
-	width: 96%;
-	margin: 2%;
-	padding: 2%;
+	margin: 5% 18%;
 }
-/* header & nav */
+section{
+    padding: 4% 0;
+}
 header{
-	display:flex;
-	justify-content: space-evenly;
+    display: flex;
+    justify-content: space-between;
 }
 nav{
 	display: flex;
@@ -87,17 +85,16 @@ nav a{
 	color: gray;
 	text-decoration: none;
 }
- .title{
+.title{
 	display: flex;
-	margin: 5%;
-	justify-content: center; 
+    justify-content: center; 
+    border-bottom: 2px solid black;
 } 
 h1{
-	font-size: 80px;
-	padding: 10%;
+	font-size: 5rem;
 	text-align: center;
 	display: flex;
-	flex-direction: column;	
+    flex-direction: column;	
 }
 .button{
 	display: flex;
@@ -109,14 +106,11 @@ h1{
 	padding: 3px 15px;
 }
 .codeSnippet{
-	margin: 0 5% 0 20%;
-	display: flex;
+    margin-left: 10%;
 }
 .content{
-	width: 100%;
-	height: 100%;
 	display: flex;
-	flex-flow: row wrap;
+    flex-flow: row wrap;
 }
 #features{
 	display: flex;
@@ -127,12 +121,14 @@ h1{
 	display: flex;
 	width: 50%;
 	flex-flow: row wrap;	
-}	
+}
 .middle-img{
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	margin: 8px 5px;
+	width: 100%;
+}
+.content2{
+   display: flex;
+   flex-flow: row wrap;
+   border-bottom: 2px solid black;
 }
 #services{
 	display: flex;
@@ -170,4 +166,9 @@ footer{
 	justify-content: center;
 	padding: 5%;
 }
+@media (max-width: 800px){
+    
+}
+@media (max-width: 500px){
 
+}
