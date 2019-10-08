@@ -204,6 +204,9 @@ footer{
     .container {
         margin: 0 auto;
         width: 99%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
     }
     .container header{
         display: flex;
@@ -244,25 +247,34 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-content: center;
+        margin: 0 auto;
     }
-    .content .about {
-        padding-top: 5%;
+    .content .features{
+        margin: 25px auto;
     }     
+    .content .about{
+        margin: 25px auto;
+    }
     .middle-img{
         height: auto;
-        max-width: 98%;
+        width: 0 auto;
     }
     .content2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
+        padding: 5%;
     }
     .content2 .services{
-        padding-top: 5%;
+        margin: 25px auto;
     }
-    .content2 .product{
-        padding: 8%;
+    .content2 .product {
+        margin: 25px auto;
     }
+    .content2 .vision {
+        margin: 25px auto;
+    }
+    
 }
 
