@@ -205,5 +205,64 @@ footer{
         margin: 0 auto;
         width: 99%;
     }
+    .container header{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 10%;
+    }
+    .container header .logo{
+        width: 40%;
+        padding-bottom: 2%;
+        border-bottom: 1px solid black;
+    }
+    .container header nav{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         width: 98%;
+         justify-content: center;
+         align-items: center;
+    }
+    .container header nav a{
+        padding: 4%;
+        border-bottom: 1px solid black;
+    }
+    .title .codeSnippet {
+        display: none;
+    }
+    .title {
+        border-top: 2px solid black;
+    }
+    .title .demand h1 {
+        padding-top: 2%;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .content .about {
+        padding-top: 5%;
+    }     
+    .middle-img{
+        height: auto;
+        max-width: 98%;
+    }
+    .content2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .content2 .services{
+        padding-top: 5%;
+    }
+    .content2 .product{
+        padding: 8%;
+    }
 }
 
